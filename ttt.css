@@ -1,0 +1,28 @@
+/*title*/
+h1  {
+  text-align: center;
+  font-weight: bold;
+}
+
+table {
+  margin: auto;
+  /*border: 2px solid black;*/
+}
+
+td {
+  height: 100px;
+  width:100px;
+}
+/*row 1*/
+.row1 td {
+  border-bottom: 2px solid black;
+}
+/*row 2*/
+.row2 td {
+  border-bottom: 2px solid black;
+}
+
+td:nth-child(2) {
+  border-left: 2px solid black;
+  border-right:2px solid black;
+}
